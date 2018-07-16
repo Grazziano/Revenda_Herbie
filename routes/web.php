@@ -81,3 +81,10 @@ Route::get('admin/consulta', 'ParceirosController@consulta');
 Route::get('/mecId/{id?}', 'mecController@mecId');
 
 Route::get('/listarMecanicos/{palavra?}', 'mecController@listarMecanicos');
+
+
+// Route::get('admin/reservagraf', 'ReservasController@graf')->name('reserva.graf');
+
+Route::get('reserva', function () {
+    return view('reserva');
+   });

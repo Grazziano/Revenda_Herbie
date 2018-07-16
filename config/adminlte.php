@@ -180,7 +180,11 @@ return [
                 [
                     'text' => 'Propostas',
                     'url'  => 'admin/propostas',
-                ],    
+                ],  
+                [
+                    'text' => 'Reservas',
+                    'url'  => 'admin/reservas',
+                ],  
             ],    
         ],        
     ],
